@@ -1,0 +1,170 @@
+.bg_top{
+    /* Body */
+    
+    margin-top: 5%;
+    width: 80%;
+    height: 219px;
+    justify-self: center;
+    
+    background: linear-gradient(90deg, #13DCF2 0%, #7B17A6 100%);
+    border-radius: 53px;
+
+}
+
+.main_top{
+    display: flex;
+    padding-top: 15px;
+    width: fit-content;
+    margin: 30px;
+    flex-direction: row;
+    justify-self: center;
+}
+
+.films_month{
+   /* Film1 */
+    width: fit-content;
+    height: 157px;
+    justify-content: center;
+    margin: 10px;
+    
+   
+}
+
+.film_top{
+    margin: 10px;
+}
+
+.cover_month{
+    /* Film_example */
+width: 100px;
+height: 134.15px;
+background: #4D1111;
+
+}
+
+.title_month{
+    /* Name_example */
+
+
+width: 64px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+justify-self: center;
+color: #FFFFFF;
+
+
+
+}
+
+
+.bg_main{
+    /* Rectangle 3 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100%;
+    height: 2372px;
+    left: 0px;
+    top: 359px;
+
+    background: linear-gradient(180deg, #3B0E59 0%, #7B17A6 28.85%, #C729F2 52.4%, #13DCF2 80.77%, #0B2740 92.31%);
+    border: 1px solid #000000;
+
+}
+
+.main{
+    justify-self:end;
+    margin-right: 30px;
+    width: fit-content;
+}
+
+.main_films{
+    /* Catalog_body */
+
+box-sizing: border-box;
+justify-content: flex-end;
+height: fit-content;
+padding-bottom: 10px;
+margin-top: 15%;
+background: #39323D;
+border: 1px solid #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 256px;
+    margin-bottom:80px;
+}
+
+.film{
+    width: 150px;
+    height: 256px;
+    margin: 15px;
+    padding: 25px;
+}
+
+.cover{
+    /* Film_exaple */
+
+
+width: 150px;
+height: 225px;
+
+background: #4A2E2E;
+
+}
+
+.title{
+    /* Name_example */
+display: flex;
+justify-self: center;
+width: fit-content;
+height: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+margin-top: 5px;
+color: #FFFFFF;
+
+
+
+}
+
+.next_page{
+    /* next_page */
+
+display: flex;
+justify-self: center;
+width: fit-content;
+height: 37px;
+color: #FFFFFF;
+margin: 10px;
+padding-top: 40px;
+font-size: 20px;
+
+filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.page_number{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.next{
+    margin-left: 5px;
+    margin-right: 5px;
+}
