@@ -211,26 +211,9 @@ cursor: pointer;
     opacity: 0.5;
 }
 
-.title_month{
-    /* Name_example */
-display: flex;
-cursor: pointer;
-width: 40px;
-height: fit-content;
-flex-wrap: wrap;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-color: #FFFFFF;
-}
 
-.title_month:hover{
-    text-decoration: underline;
-    color:#393849
-    
-}
+
+
 
 main{
     width: 100%;
@@ -242,11 +225,12 @@ main{
 }
 
 .bg_main{
-    /* Rectangle 3 */
-    background: linear-gradient(180deg, #3B0E59 0%, #7B17A6 28.85%, #C729F2 52.4%, #13DCF2 80.77%, #0B2740 92.31%);
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
     border: 1px solid #341a38;
     filter: drop-shadow(0px -10px 15px #450e59);
-    
+
 }
 
 .title_main{
@@ -264,128 +248,38 @@ main{
 }
 
 .main_body{
-    width: 76%;
-            display: flex;
-            margin-left: 350px;
-            flex-direction: column;
+    width: 100%;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 20px;
+    flex-direction: column;
 }
 
-.main_films{
-    /* Catalog_body */
-
+.main-player{
+    /* Film_body */
 box-sizing: border-box;
-justify-content: flex-end;
-height: fit-content;
-padding-bottom: 10px;
-margin-top: 4%;
+width: 100%;
+height: 1300px;
+
 background: #39323D;
-border: 1px solid #FFFFFF;
+border: 1px solid hsl(0, 0%, 100%);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-
 }
 
-.row{
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-    height: 256px;
-    margin-bottom:80px;
+.Film-title-bg{
+    width: 100%;
+    height: 77px;
+    background: #46465E;
+    align-content: center;
 }
 
-.film{
-    width: 150px;
-    height: 256px;
-    margin: 15px;
-    padding: 25px;
-    justify-items: center;
+.Film-title{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #FFFFFF;  
+    margin-left: 15px;
 }
-
-.cover-1{
-    cursor: pointer;
-    width: 150px;
-    height: 225px;
-    background: url(Iron_Man_\(2008_film\)_poster.jpg);
-}
-
-.cover-1:hover{
-    opacity: 0.5;
-}
-
-.cover{
-    /* Film_exaple */
-
-cursor: pointer;
-width: 150px;
-height: 225px;
-background: #4A2E2E;
-
-}
-
-.cover:hover{
-    opacity: 0.5;
-}
-
-.title{
-    /* Name_example */
-display: flex;
-width: 70px;
-flex-wrap: wrap;
-height: 30px;
-font-family: 'Roboto';
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-margin-top: 5px;
-color: #d7d7d7;
-
-
-}
-
-
-.next_page{
-    /* next_page */
-
-display: flex;
-justify-self: center;
-width: fit-content;
-height: 37px;
-color: #FFFFFF;
-margin: 10px;
-padding-top: 40px;
-font-size: 20px;
-
-filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.25));
-user-select: none;
-}
-
-.page_number{
-    margin-left: 5px;
-    margin-right: 5px;
-    cursor: pointer;
-}
-.page_number:hover{
-    text-decoration: underline;
-}
-
-.next{
-    margin-left: 5px;
-    margin-right: 5px;
-    cursor: pointer;
-}
-.next:hover{
-    text-decoration: underline;
-}
-
-.back{
-    cursor: pointer;
-}
-.back:hover{
-    text-decoration: underline;
-}
-
-
-
 
 .catalog_main{
     /* Catalog */
@@ -399,17 +293,16 @@ margin: 2.5%;
 }
 
 .catalog_bg{
-position: absolute; /*  FIX LATER PLS ABSOLUTE "SOLVER" LOL (funny right?) yeah prob no but idc */
 box-sizing: border-box;
 
-width: 319.38px;
+width: 27%;
 height: 1300px;
 
 
 background: linear-gradient(180deg, #3B0E59 0.96%, #13DCF2 49.04%, #C729F2 100%);
 border: 1px solid #FFFEFE;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-margin-top: 20px;
+margin-top: 10%;
 margin-left: 10px;
 }
 
@@ -443,7 +336,7 @@ user-select: none;
 
 .sub-catalog-title-cartoon{
     margin-left: 15%;
-    font-family: 'Robotic';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 800;
     font-size: 35px;
@@ -492,22 +385,18 @@ background: #46465E;
 
 .section-film-title{
     display: flex;
-cursor: pointer;
-width: 40px;
-height: fit-content;
-flex-wrap: wrap;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-color: #FFFFFF;
+    width: 40px;
+    height: fit-content;
+    flex-wrap: wrap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
 }
 
-.section-film-title:hover{
-    text-decoration: underline;
-    color: rgb(184, 184, 255);
-}
+
 
 .about_body{
     position: relative;
