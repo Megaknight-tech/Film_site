@@ -214,7 +214,6 @@ cursor: pointer;
 .title_month{
     /* Name_example */
 display: flex;
-cursor: pointer;
 width: 40px;
 height: fit-content;
 flex-wrap: wrap;
@@ -226,11 +225,7 @@ line-height: 18px;
 color: #FFFFFF;
 }
 
-.title_month:hover{
-    text-decoration: underline;
-    color:#393849
-    
-}
+
 
 main{
     width: 100%;
@@ -301,12 +296,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     justify-items: center;
 }
 
-.cover-1{
-    cursor: pointer;
-    width: 150px;
-    height: 225px;
-    background: url(Iron_Man_\(2008_film\)_poster.jpg);
-}
 
 .cover-1:hover{
     opacity: 0.5;
@@ -492,7 +481,6 @@ background: #46465E;
 
 .section-film-title{
     display: flex;
-cursor: pointer;
 width: 40px;
 height: fit-content;
 flex-wrap: wrap;
@@ -504,10 +492,6 @@ line-height: 18px;
 color: #FFFFFF;
 }
 
-.section-film-title:hover{
-    text-decoration: underline;
-    color: rgb(184, 184, 255);
-}
 
 .about_body{
     position: relative;
