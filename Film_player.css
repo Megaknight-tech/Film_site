@@ -339,6 +339,167 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-top: 3px;
 }
 
+.description{
+    margin: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 20px;
+    
+}
+
+.description-text{
+    color: rgb(145, 145, 145);
+    font-family: Roboto;
+    font-size: 15px;
+    
+}
+
+.screen{
+    /* Screen */
+display: flex;
+justify-self: center;
+width: 857px;
+height: 470px;
+background: #1c1c1c;
+
+}
+/* From Uiverse.io by catraco */ 
+/*------ Settings ------*/
+.cont {
+  --color: #a5a5b0;
+  --size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-size: var(--size);
+  user-select: none;
+  fill: var(--color);
+  width: 100%;
+  justify-self: center;
+  
+}
+
+.cont .play {
+      display: none;
+
+  animation: keyframes-fill .5s;
+}
+
+
+
+/* ------ On check event ------ */
+.cont input:checked ~ .play {
+  display: block;
+}
+
+
+
+/* ------ Hide the default checkbox ------ */
+.cont input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* ------ Animation ------ */
+@keyframes keyframes-fill {
+  0% {
+    transform: rotate(-180deg) scale(0);
+    opacity: 0;
+  }
+
+  50% {
+    transform: rotate(-10deg) scale(1.2);
+  }
+}
+
+/* From Uiverse.io by Donewenfu */ 
+.loader {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.jimu-primary-loading:before,
+.jimu-primary-loading:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+
+.jimu-primary-loading:before {
+  left: -19.992px;
+}
+
+.jimu-primary-loading:after {
+  left: 19.992px;
+  -webkit-animation-delay: 0.32s !important;
+  animation-delay: 0.32s !important;
+}
+
+.jimu-primary-loading:before,
+.jimu-primary-loading:after,
+.jimu-primary-loading {
+  background: #969696;
+  -webkit-animation: loading-keys-app-loading 0.8s infinite ease-in-out;
+  animation: loading-keys-app-loading 0.8s infinite ease-in-out;
+  width: 13.6px;
+  height: 32px;
+}
+
+.jimu-primary-loading {
+  text-indent: -9999em;
+  margin: auto;
+  position: absolute;
+  right: calc(50% - 6.8px);
+  top: calc(50% - 16px);
+  -webkit-animation-delay: 0.16s !important;
+  animation-delay: 0.16s !important;
+}
+
+@-webkit-keyframes loading-keys-app-loading {
+
+  0%,
+  80%,
+  100% {
+    opacity: .75;
+    box-shadow: 0 0 #b7b7b7;
+    height: 32px;
+  }
+
+  40% {
+    opacity: 1;
+    box-shadow: 0 -8px #cacaca;
+    height: 40px;
+  }
+}
+
+@keyframes loading-keys-app-loading {
+
+  0%,
+  80%,
+  100% {
+    opacity: .75;
+    box-shadow: 0 0 #bbbbbb;
+    height: 32px;
+  }
+
+  40% {
+    opacity: 1;
+    box-shadow: 0 -8px #9f9f9f;
+    height: 40px;
+  }
+}
+
+
+
+
 svg {
   position: relative;
   top: 0;

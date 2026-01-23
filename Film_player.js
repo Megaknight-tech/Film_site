@@ -5,6 +5,26 @@ let likes_count = document.querySelector('.likes')
 let dislikes_count = document.querySelector('.dislikes')
 let likes_check = document.querySelector('.check-1')
 let dislikes_check = document.querySelector('.check-2')
+let loading = document.querySelector('.loader')
+let load_check = document.querySelector('.load-check')
+
+loading.style.display = 'none';
+
+let play = false;
+
+load_check.addEventListener('click', function(){
+    if (play == false){
+        
+        loading.style.display = 'block';
+            
+         play = true;
+      
+    }else{
+        loading.style.display = 'none';
+        play = false;
+    };
+});
+
 
 let like = false 
 let likes_num = 0
