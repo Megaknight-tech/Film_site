@@ -7,6 +7,8 @@ let likes_check = document.querySelector('.check-1')
 let dislikes_check = document.querySelector('.check-2')
 let loading = document.querySelector('.loader')
 let load_check = document.querySelector('.load-check')
+let trailer = document.querySelector('.trailer')
+
 
 loading.style.display = 'none';
 
@@ -16,7 +18,7 @@ load_check.addEventListener('click', function(){
     if (play == false){
         
         loading.style.display = 'block';
-            
+        trailer.play()
          play = true;
       
     }else{
